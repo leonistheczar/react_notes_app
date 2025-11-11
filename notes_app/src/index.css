@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import 'tailwindcss';
+/* Custom Google Font -- Mouse Memoirs  */
+@theme { --font-memoirs: "Mouse Memoirs", sans-serif; }
+body{
+  @apply bg-purple-700 tracking-wider;
+  font-family: var(--font-memoirs);
+}
+#root{
+  @apply p-8;
+}
